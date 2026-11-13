@@ -102,6 +102,14 @@ python -m obd_lab.demo
 python -m unittest discover -s tests -v
 ```
 
+На Linux/macOS то же самое через `python3` (проверено на свежем дереве):
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m obd_lab.demo
+python3 -m unittest discover -s tests -v
+```
+
 Или коротко:
 
 ```bat
