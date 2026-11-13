@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+*.sqlite3
+
+# Логи стендового ELM327-emulator (шумит при разрыве TCP-соединения).
+elm.log*
+
+report_*.md
